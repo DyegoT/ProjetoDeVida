@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+:root{
+    --primary-color: #fdd408;
+    --secondary-color: #f1fbb6;
+    --text-color: #000000;
+    --main-font: 'times new roman', serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: var(--main-font);
+    background: var(--secondary-color);
+}
+
+header{
+    background-color: var(--primary-color);
+    width: auto;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+header h1{
+    font-family: "Irish Grover", sistem-ui;
+    font-size: 35pt;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+main{
+    width: 100%;
+    height: calc(100vh - 105px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainTitle{
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50pt;
+}
+
+.mainTitle h2{
+    text-align: center;
+    font-weight: 500;
+}
+
+.mainTitle icon{
+    font-size: 130pt;
+    font-weight: 500;
+}
+
+.about{
+    margin-top: 200px;
+    width: 100%;
+    height: calc(100vh - 105px);
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutMe{
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 4px dashed var(--primary-color);
+    border-radius: 20px;
+    margin-left: 20px;
+    background: #ffffff;
+    outline: 10px solid #ffffff;
+}
+
+.aboutMe h1{
+    font-size: 50pt;
+    font-weight: bold;
+    color: rgb(255, 200, 1);
+}
+
+.aboutMe p{
+    font-size: 20pt;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+#sf01{
+    position: absolute;
+    top: -70px;
+    right: -190px;
+    z-index: -1;
+    animation: rotacaoHorario 20s linear infinite; 
+}
+    
+#sf02{
+    position: absolute;
+    top: 400px;
+    left: -200px;
+    z-index: -1;
+    animation: rotacaoAntihorario 20s linear infinite;
+}
+
+@keyframes rotacaoHorario{
+    from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+}
+
+@keyframes rotacaoAntihorario{
+    from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(-360deg);
+        }
+}
