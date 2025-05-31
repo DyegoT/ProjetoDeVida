@@ -114,6 +114,21 @@ main{
     color: var(--text-color);
 }
 
+.whoAmI{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+.whoAmI h1{
+
+}
+
+.whoAmI p{
+    padding: 20px;
+    font-size: 20pt;
+}
 
 @keyframes rotacaoHorario{
     from {
