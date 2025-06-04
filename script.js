@@ -1,9 +1,5 @@
-const patoDancante = document.getElementById('dancingDuck');
+const quackSound = document.getElementById('quack');
 
-function nootNooted(novoSrc) {
-    patoDancante.src = novoSrc;
+function quack(){
+        quackSound.play();
 }
-
-patoDancante.addEventListener('mouseover', function(){
-    nootNooted('./assets/nootNoot.webp');
-});

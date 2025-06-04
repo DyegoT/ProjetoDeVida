@@ -116,29 +116,35 @@ main{
 }
 
 .whoAmI{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    text-align: center;
 }
 
 .whoAmI img{
     margin: auto;
     border-radius: 20%; 
-    border: solid 4px var(--primary-color);
+    border: solid 3px var(--text-color);
+    box-shadow: 8px 8px 0  var(--text-color);
+    cursor: pointer;
 }
 
 .whoAmI h1{
     font-size: 50pt;
     font-weight: bold;
-    color: rgb(255, 200, 1);
-    background-color: var(--third-color);
+    color: var(--text-color);
     padding: 20px;
 }
 
 .whoAmI p{
-    padding: 20px;
-    font-size: 20pt;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.ondeVenho{
+    background-color: var(--third-color);
+    padding: 40px;
+    border: dashed 4px #ff9100;
+    border-radius: 40px 40px 0 0;
+    width: 80%;
 }
 
 @keyframes rotacaoHorario{
