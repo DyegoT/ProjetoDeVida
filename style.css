@@ -4,6 +4,7 @@
 :root{
     --primary-color: #fdd408;
     --secondary-color: #f1fbb6;
+    --third-color: #ffffff;
     --text-color: #000000;
     --main-font: 'times new roman', serif;
 }
@@ -121,8 +122,18 @@ main{
     text-align: center;
 }
 
-.whoAmI h1{
+.whoAmI img{
+    margin: auto;
+    border-radius: 20%; 
+    border: solid 4px var(--primary-color);
+}
 
+.whoAmI h1{
+    font-size: 50pt;
+    font-weight: bold;
+    color: rgb(255, 200, 1);
+    background-color: var(--third-color);
+    padding: 20px;
 }
 
 .whoAmI p{
