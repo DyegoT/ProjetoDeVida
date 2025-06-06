@@ -41,7 +41,6 @@ header h1{
 main{
     width: 100%;
     height: calc(100vh - 105px);
-    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
@@ -116,6 +115,10 @@ main{
 }
 
 .whoAmI{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .whoAmI img{
@@ -144,6 +147,15 @@ main{
     border: dashed 4px #ff9100;
     border-radius: 40px 40px 0 0;
     width: 80%;
+}
+
+.personalValues{
+    display: flex;
+    flex-direction: column;
+}
+
+#valueList{
+    list-style-type: disc;
 }
 
 @keyframes rotacaoHorario{
