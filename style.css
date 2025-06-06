@@ -123,7 +123,6 @@ main{
     border-radius: 20%; 
     border: solid 3px var(--text-color);
     box-shadow: 8px 8px 0  var(--text-color);
-    cursor: pointer;
 }
 
 .whoAmI h1{
