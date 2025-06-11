@@ -38,7 +38,7 @@ header h1{
     color: #ffffff;
 }
 
-main{
+section{
     width: 100%;
     height: calc(100vh - 105px);
     display: flex;
