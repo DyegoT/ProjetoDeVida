@@ -41,7 +41,6 @@ header h1{
 section{
     width: 100%;
     height: calc(100vh - 105px);
-    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
@@ -116,6 +115,10 @@ section{
 }
 
 .whoAmI{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .whoAmI img{
@@ -123,7 +126,6 @@ section{
     border-radius: 20%; 
     border: solid 3px var(--text-color);
     box-shadow: 8px 8px 0  var(--text-color);
-    cursor: pointer;
 }
 
 .whoAmI h1{
@@ -145,6 +147,15 @@ section{
     border: dashed 4px #ff9100;
     border-radius: 40px 40px 0 0;
     width: 80%;
+}
+
+.personalValues{
+    display: flex;
+    flex-direction: column;
+}
+
+#valueList{
+    list-style-type: disc;
 }
 
 @keyframes rotacaoHorario{
