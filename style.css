@@ -160,9 +160,16 @@ section{
     width: 80%;
 }
 
-.personalValues{
-    display: flex;
-    flex-direction: column;
+.metas{
+    background-color: var(--third-color);
+    border-radius: 50px 50px 0 0;
+    padding: 50px;
+    box-shadow: 0 -10px 40px rgba(0, 0, 0,0.1);
+}
+
+.metas h1{
+    color: var(--primary-color);
+    font-size: 50pt;
 }
 
 @keyframes rotacaoHorario{
