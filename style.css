@@ -130,7 +130,7 @@ section{
 .whoAmI h1{
     font-size: 50pt;
     font-weight: bold;
-    color: var(--text-color);
+    color: #ff9100;
     padding: 20px;
 }
 
@@ -171,6 +171,11 @@ section{
 .metas h1{
     color: var(--primary-color);
     font-size: 50pt;
+}
+
+.metas h2{
+    color: #ff9100;
+    font-family: "Irish Grover", sistem-ui;
 }
 
 @keyframes rotacaoHorario{
