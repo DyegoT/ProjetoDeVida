@@ -40,7 +40,6 @@ header h1{
 
 section{
     width: 100%;
-    height: calc(100vh - 105px);
     justify-content: center;
     align-items: center;
     margin-top: 100px;
@@ -135,10 +134,22 @@ section{
     padding: 20px;
 }
 
+.whoAmI h2{
+    font-size: 30pt;
+    color: var(--primary-color);
+    font-family: "Irish Grover", sistem-ui;
+}
+
 .whoAmI p{
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+    text-align: start;
     font-size: 15pt;
+}
+
+.whoAmI ul{
+    font-size: 15pt;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: circle;
 }
 
 .ondeVenho{
@@ -152,10 +163,6 @@ section{
 .personalValues{
     display: flex;
     flex-direction: column;
-}
-
-#valueList{
-    list-style-type: disc;
 }
 
 @keyframes rotacaoHorario{
